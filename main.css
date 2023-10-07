@@ -1,0 +1,20 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #000000;
+}
+.card_item{
+    border-radius: 33px;
+    border: black solid 5px;
+    margin: 10px;
+    padding:10px;
+    min-width: 100px;
+    min-height: 200px;
+    background: linear-gradient(45deg,rgb(143, 236, 151),white);
+}
+h1{
+    text-align: center;
+}
